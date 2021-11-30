@@ -11,4 +11,4 @@ app.get('/', (req, res) => {
 
 const port = process.env.PORT || 8152;
 
-app.listen(port, () => console.log("The server is well behaved today"))
+app.listen(port, () => console.log(`The server is well behaved today on port ${port}`))
